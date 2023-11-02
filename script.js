@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const rfidString = new TextDecoder().decode(rfidCode);
 
                     // Check if the scanned RFID code matches the desired code
-                    if (rfidString.trim() === '221002234') {
+                    if (rfidString.trim() === '0003453733') {
                         // Redirect to Attendance Marked page
                         window.location.href = 'attendance-marked.html';
                     }
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const rfidInput = event.target;
 
             // Check if the entered RFID code matches the desired code
-            if (rfidInput.id === 'rfidInput' && rfidInput.value.trim() === '221002234') {
+            if (rfidInput.id === 'rfidInput' && rfidInput.value.trim() === '0003453733') {
                 // Redirect to Attendance Marked page
                 window.location.href = 'attendance-marked.html';
             }
