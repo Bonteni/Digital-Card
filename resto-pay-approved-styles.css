@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('Resto Pay Approved.jpg'); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.resto-pay-approved-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

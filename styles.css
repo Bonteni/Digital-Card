@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.front-page {
+    background-image: url('Front Page.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.academic-page {
+    background-image: url('Academic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.non-academic-page {
+    background-image: url('Non Academic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* Apply classes to buttons */
+.front-page .left-button {
+    margin-bottom: 3.5cm;
+    margin-left: 13cm;
+
+
+}
+.front-page .right-button {
+    margin-bottom: 3.5cm;
+    margin-left: 12cm;
+}
+
+.academic-page .left-button {
+    margin-left: 15cm;
+    margin-bottom: 3.0cm;
+}
+
+.academic-page .right-button {
+    margin-left: 9cm;
+    margin-bottom: 3cm;
+}
+
+.academic-page .center-button {
+    margin-bottom: 3.5cm;
+}
+
+.non-academic-page .left-button {
+    margin-left: 20cm;
+    margin-bottom: 2.5cm;
+}
+
+.non-academic-page .right-button {
+    margin-right: 10cm;
+    margin-bottom: 3.5cm;
+}
+
+.non-academic-page .center-button {
+    margin-bottom: 3.5cm;
+}
+
+.nav-button {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.nav-button:hover {
+    color: black;
+    text-decoration: underline;
+}
+.resto-pay-page {
+    background-image: url('Resto pay.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Apply classes to buttons */
+.resto-pay-page .left-button {
+    margin-right: 6cm; /* Adjust margin for the right button on the resto-pay page */
+    margin-bottom: 3.5cm;
+}
+
+.resto-pay-page .right-button {
+    margin-bottom: 3.5cm;
+}
+
+.nav-button {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.nav-button:hover {
+    color: black;
+    text-decoration: underline;
+}
+.attendance-page {
+    background-image: url('Attendance.jpg'); /* Add the correct path to your Attendance background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+#rfidInput {
+    
+    width: 0;
+    color: white; /* Set the text color to white */
+}
+
+/*In this modification, the visibility: hidden; CSS property is added to the #rfidInput element, making it invisible while still allowing you to interact with it. Now, both the search button and the typing box will be hidden. When you type into the invisible input field and enter the correct code, it will still trigger the redirect functionality. */
+
+
+/*In this code, the .hidden class is applied to both the search button (#searchButton) and the RFID input field (#rfidInput). The display: none; property in the CSS will make these elements invisible and not occupy any space in the layout.
+
+Now, users can type in the hidden input field without seeing the input or the button, and the JavaScript code will still detect the input and perform the redirection when the correct RFID code is entered. */
+
+.attendance-marked-page {
+    background-image: url('Attendace Marked.jpg'); /* Add the correct path to your Attendace Marked background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+}
+
+
+.resto-pay-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#rfidInput {
+    width: 0;
+    color: white;
+}
+
